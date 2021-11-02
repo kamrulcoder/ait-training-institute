@@ -1,0 +1,8 @@
+.aboutCourseDetails {
+    padding: 100px 0;
+}
+
+.courseDetailsImg  img  {
+    display: inline-block;
+    width: 100%;
+}

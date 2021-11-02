@@ -1,0 +1,91 @@
+.singleInstructor {
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.3);
+  padding: 20px 0 0 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.insructorImg {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  margin: 15px auto;
+  overflow: hidden;
+  border: 1px solid #ddd;
+}
+
+.insructorImg img {
+  display: inline-block;
+  width: 100%;
+  transition: all 0.5s ease;
+}
+.insructorImg img:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.instructorText h4 {
+  font-size: 16px;
+  color: #222;
+  font-weight: 600;
+  display: block;
+  transition: 0.35s;
+}
+
+.instructorArea {
+  padding: 100px 0;
+}
+.instructorText p {
+  font-size: 12px;
+  font-weight: 600;
+  padding-top: 8px;
+  transition: 0.5s;
+  text-transform: uppercase;
+  color: #727272;
+}
+
+.tlUserSocials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f37c2f;
+    list-style: none;
+    padding: 5px 0 !important;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    transform: translateY(100%);
+    transition: 0.35s;
+}
+
+.tlUserSocials li {
+  display: inline-block;
+  padding: 5px 10px;
+}
+
+
+.tlUserSocials li  a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+}
+
+.singleInstructor:hover  .tlUserSocials {
+       transform: translateY(0%); 
+}
+
+.instructorHeader  {
+    text-align: center;
+    margin-bottom:50px;
+}
+
+.instructorHeader  h2 {
+    font-weight: 700;
+    font-size: 32px;
+    text-transform: uppercase;
+}

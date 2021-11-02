@@ -1,0 +1,69 @@
+
+
+
+
+.getStartedArea {
+    padding: 120px 0;
+    background: url("../../img/training-bg.jpg")  no-repeat  center;
+    background-size: cover;
+    position: relative;
+    z-index: 9;
+    margin-bottom: 50px;
+}
+
+.getStartedArea::after{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.getStartedText {
+    text-align: center;
+    color: #fff;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown li {
+  background: rgba(255, 255, 255, 0.1) none repeat scroll 0 0;
+  border: 1 px solid #fff;
+  display: inline-block;
+  margin: 0 7px;
+  padding: 8px 0 14px;
+  width: 80px;
+  position: relative;
+  z-index: 2;
+}
+
+.countdown li span {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 39px;
+  color: #fff;
+}
+
+.countdown li p {
+  font-size: 14px;
+  margin: -8 px 0 0;
+  text-transform: capitalize;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+
+.getStartedImg  img {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+
+}
+

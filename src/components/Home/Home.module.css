@@ -1,0 +1,139 @@
+
+/* hero section css start  */
+.heroSection {
+  padding: 70px 0;
+  background: url("../../img/hero-banner.jpg")  no-repeat center;
+  background-size: cover;
+  position: relative;
+  z-index: 99;
+}
+
+.heroSection  h2 {
+  font-size: 42px;
+  font-weight: 700;
+  color: #ef470d;
+}
+
+.heroSection p {
+  opacity: 0.9;
+  color: #888;
+}
+
+
+.heroSection  button {
+  background: linear-gradient(
+    90deg,#ef3e0f,#ffb800);
+    outline: none;
+    border-radius: 50px;
+    padding: 10px 50px;
+    font-size: 20px;
+    transition: all 0.5s ease;
+}
+
+
+.heroSection  button:hover {
+  opacity: 0.8;
+}
+
+
+
+
+
+/* hero section css  end  */
+
+
+
+
+.aboutCourse {
+  padding: 50px 0;
+}
+
+.aboutCourseHeader {
+  text-align: center;
+}
+
+.aboutCourseHeader h2 {
+  font-size: 35px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.courseicon {
+  color: #fff;
+  text-align: center;
+  background-color: #f37c2f;
+  width: 200px;
+  height: 83px;
+  line-height: 83px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.courseicon  span {
+  font-size: 32px;
+}
+
+.courseAboutItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.courseText  h4 {
+  font-size: 20px;
+  margin-bottom: 5px !important;
+}
+
+.courseText  p {
+  font-size: 15px;
+  color: #727272;
+  margin-bottom: 0;
+}
+.courseAboutImg  img {
+  display: inline-block;
+  width: 100%;
+}
+
+/* best facilitist area start  */
+
+.bestFacilitesArea {
+  background: #fafbff;
+  padding: 50px 0;
+}
+
+.facilitiest {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.facilitiest  img {
+  border-radius: 50%;
+  box-shadow: 5px 5px 25px 0px rgb(173 173 173 / 59%);
+}
+.facilitiest  h5 {
+  margin-top: 15px;
+  color: #02b3e4;
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.facilitiest  h5::after{
+  content: "";
+  position: absolute;
+  width: 50px;
+  height: 2px;
+  left: 50%;
+  bottom: -10px;
+  transform: translate(-50%, -50%);
+  background: #02b3e4;
+}
+
+/* best facilitist area start  */
+
+
+

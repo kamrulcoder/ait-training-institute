@@ -1,0 +1,17 @@
+.faqArea  {
+    padding: 50px 0;
+}
+
+.faqImg  img {
+    display: inline-block;
+    width: 100%;
+}
+
+.faqItem  {
+    margin: 15px 0;
+}
+
+.faqHeader  {
+    text-align: center;
+    margin-bottom: 30px;
+}

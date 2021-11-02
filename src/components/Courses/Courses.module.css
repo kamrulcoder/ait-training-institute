@@ -1,0 +1,135 @@
+.courseHeader {
+  text-align: center;
+}
+
+.courseHeader  h2 {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.courseArea {
+  padding: 50px 0;
+}
+
+.courseSingle  {
+  margin: 30px 0;
+}
+
+.corseImg  {
+  overflow: hidden;
+}
+
+.corseImg img {
+  display: inline-block;
+  width: 100%;
+  transition: all 0.5s  ease;
+}
+
+.corseImg img:hover {
+  transform: scale(1.1);
+}
+
+.courseCatagory {
+  position: relative;
+  margin-right: 10px;
+  margin-bottom: 16px;
+}
+
+.courseCatagory a {
+  position: relative;
+  -webkit-clip-path: polygon(0% 0%, 100% 0, 88% 50%, 100% 100%, 0% 100%);
+  clip-path: polygon(0% 0%, 100% 0, 88% 50%, 100% 100%, 0% 100%);
+  display: inline-block;
+  margin-left: 0;
+  padding: 2px  40px  2px 15px;
+  background: #000;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+
+.courseCatagory a:hover {
+    color: #fff;
+}
+
+
+.courseWrapMeta  {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    list-style: none;
+}
+
+
+.courseWrapMeta li {
+    margin-right: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.courseWrapMeta li span {
+  display: inline-block;
+  margin-right: 2px;
+}
+
+.coursefooter  {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coursefooter  span {
+  font-weight: 700;
+  color: rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.coursefooter  a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+  background: #000;
+  padding: 7px 40px ;
+  text-transform: capitalize;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  z-index: 99;
+  border: 1px solid #ddd;
+}
+
+.coursefooter  a:hover {
+  color: #fff;
+}
+
+
+.coursefooter  a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -100%;
+  height: 100%;
+  width: 100%;
+  background: #ff6c8d;
+  z-index: -1;
+  -webkit-transition: all .4s ease-in-out 0s;
+  -o-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+.coursefooter  a:hover::after {
+  top: 0%;
+}
+
+.courseSingleText  p {
+  margin-bottom: 0;
+  font-weight: 600;
+  opacity: 0.7;
+  font-size: 18px;
+}
+
+.courseTitle  {
+  font-size: 22px;
+  font-weight: 700;
+  opacity: 0.9;
+}

@@ -1,0 +1,96 @@
+
+
+
+/* contact  form and info start  */
+.contactInfo {
+    background: #172B4C;
+    padding: 50px 20px;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.contactContent {
+    padding: 50px 0;
+}
+
+.contactInfo   h4 {
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 32px;
+}
+
+.contactInfo   h5 {
+    margin-top: 20px;
+}
+
+.contactInfoList  {
+    list-style-type: none;
+    padding: 0 !important;
+    margin: 20px 0;
+}
+
+.contactInfoList  li {
+    display: flex;
+    align-items: center;
+    color: rgba(255, 255, 255, 0.8) !important;
+    margin: 10px 0;
+}
+
+.contactInfoList  li span {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ddd;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.contactInfoList  li  p {
+    margin-bottom: 0;
+    font-size: 18px;
+    
+}
+
+/* contact  form and info end   */
+
+
+
+/* contact header area start  */
+
+.contactHeader {
+    padding: 100px 0;
+   
+}
+
+.contactHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url("../../img/contact-bg.jpg")  no-repeat center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+    z-index: 99;
+    background-attachment: fixed;
+}
+
+.contactHeader::after {
+    content: "";
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   left: 0;
+   top: 0;
+   background: rgba(0, 0, 0, 0.7);
+   z-index: -1;
+}
+
+.contactHeader  h2 {
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #CE5937;
+    font-size: 45px;
+    font-style: italic;
+}
+
+/* contact header area start  */
